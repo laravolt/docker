@@ -30,6 +30,7 @@ RUN apt-get update \
         php7.3-imagick \
         php7.3-opcache \
         php7.3-readline \
+        php7.3-sqlite3 \
         php7.3-xml \
         php7.3-zip \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
