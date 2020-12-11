@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag laravolt/php73-toolset:$(date +%s)
+      run: docker build php73 --file Dockerfile --tag laravolt/php73-toolset:$(date +%s)
