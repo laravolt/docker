@@ -34,7 +34,6 @@ RUN apt-get update \
         php7.3-xml \
         php7.3-zip \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
-    && composer global require hirak/prestissimo \
     && composer global require friendsofphp/php-cs-fixer \
     && composer clear-cache \
     && apt-get clean \
